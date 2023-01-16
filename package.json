@@ -1,0 +1,19 @@
+{
+  "name": "site_vimmus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./app.js"
+  },
+  "author": "Alexandre Galiotto <alexandre@vimmus.com.br>",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "handlebars": "^4.7.7",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7"
+  }
+}
